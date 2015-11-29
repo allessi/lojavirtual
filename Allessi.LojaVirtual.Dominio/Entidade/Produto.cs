@@ -9,9 +9,15 @@ namespace Allessi.LojaVirtual.Dominio.Entidade
     public class Produto
     {
         public int ProdutoId { get; set; }
-        public string Nome { get; set; }
-        public string Descricao { get; set; }
-        public decimal Preco { get; set; }
-        public string Categoria { get; set; }
+        public string ProdutoCodigo { get; set; }        
+        public string ProdutoDescricao { get; set; }
+        public string ProdutoDescricaoResumida { get; set; }
+        public string MarcaDescricao { get; set; }
+        public string ModeloDescricao { get; set; }
+        public string ProdutoModeloCodigo { get; set; }
+        public string CorCodigo { get; set; }
+        public string TamanhoCodigo{ get; set; }
+        public string UnidadeVenda { get; set; }
+        public decimal Preco { get; set; }        
     }
 }
